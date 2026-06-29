@@ -8,7 +8,7 @@
 
 > Stop sending status updates over WhatsApp. Give every client a professional portal they'll actually appreciate.
 
-**Live Demo →** [relay-demo.netlify.app](https://relay-demo.netlify.app)
+**Live Demo →** [/relay_saas.app](https://relay-saas.netlify.app/)
 
 ---
 
@@ -28,7 +28,7 @@ No more "how's it going?" messages. No more Dropbox links buried in email thread
 - **File Sharing** — Upload deliverables; clients download directly from portal
 - **Invoice Summary** — Total, paid, and outstanding balance at a glance
 - **Client Feedback** — Clients leave comments; freelancer sees them on dashboard
-- **Global Search** — `⌘K` search across all projects and clients
+- **Global Search** — Search across all projects and clients
 - **Auth System** — Register/login with localStorage persistence + demo account
 
 ---
@@ -66,3 +66,67 @@ npm run build
 ```
 
 **Demo Account:**
+<!-- Email:    demo@relay.so
+
+Password: demo123 -->
+
+**Test Client Portals:**
+<!-- 
+/c/tkn_xk9m2p  → Website Redesign (68%)
+
+/c/tkn_ab3n7q  → Mobile App UI (92%)
+
+/c/tkn_cd8r1s  → Brand Identity (35%)
+
+/c/tkn_ef5t2u  → E-commerce (100% complete) 
+-->
+
+## Project Structure
+src/
+
+├── components/
+
+│   ├── layout/        # AppShell, Sidebar, Navbar, ProtectedRoute
+
+│   ├── projects/      # CreateProjectModal
+
+│   └── ui/            # Input, Toast, SearchModal
+
+├── pages/
+
+│   ├── auth/          # Login, Register
+
+│   ├── client/        # ClientView (public portal)
+
+│   ├── dashboard/     # Dashboard
+
+│   ├── projects/      # Projects list + ProjectDetail
+
+│   └── settings/      # Settings
+
+├── store/             # Zustand stores (auth, projects, ui, toast)
+
+├── lib/               # utils (cn, formatDate, getInitials...)
+
+├── data/              # mockData.js
+
+└── router/            # React Router config
+
+## Design System
+
+Inspired by editorial SaaS aesthetics — warm cream base, deep olive palette, Plus Jakarta Sans display font.
+Background:  #F0EDE4  (warm cream)
+
+Primary:     #1E2B0C  (deep olive)
+
+Accent:      #3D5420  (olive-700)
+
+Panel:       #2E3D18  (dark olive — data sections)
+
+
+## Author
+
+**Muhammad Umair** — CS Student, NUML Karachi
+Frontend Developer (React, Tailwind, Node.js)
+
+[LinkedIn](https://www.linkedin.com/in/muhammad-umair-992393316/) · [GitHub](https://github.com/MuhammadUmair551) · [Portfolio](https://umairfolio511.netlify.app/)
