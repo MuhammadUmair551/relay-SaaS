@@ -114,19 +114,19 @@ src/
 
 ## Design System
 
-Inspired by editorial SaaS aesthetics — warm cream base, deep olive palette, Plus Jakarta Sans display font.
+Inspired by editorial SaaS aesthetics, warm cream base, deep olive palette, Plus Jakarta Sans display font.
 Background:  #F0EDE4  (warm cream)
 
 Primary:     #1E2B0C  (deep olive)
 
 Accent:      #3D5420  (olive-700)
 
-Panel:       #2E3D18  (dark olive — data sections)
+Panel:       #2E3D18  (dark olive-data sections)
 
 
 ## Author
 
-**Muhammad Umair** — CS Student, NUML Karachi
+**Muhammad Umair** | CS Student, NUML Karachi
 Frontend Developer (React, Tailwind, Node.js)
 
 [LinkedIn](https://www.linkedin.com/in/muhammad-umair-992393316/) · [GitHub](https://github.com/MuhammadUmair551) · [Portfolio](https://umairfolio511.netlify.app/)
