@@ -158,7 +158,7 @@ export default function Landing() {
           className="max-w-lg ml-auto mr-0"
         >
           <p className="text-base text-muted leading-relaxed mb-8">
-            Relay gives every client a private portal - project progress,
+            Relay gives every client a private portal — project progress,
             files, invoices and feedback, all in one beautiful link.
             No accounts, no confusion, no more WhatsApp updates.
           </p>
